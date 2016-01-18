@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_vocabulary" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Vocabulary" />
+        <item android:id="@+id/nav_competition" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Competition" />
+        <item android:id="@+id/nav_culture" android:icon="@android:drawable/ic_menu_crop"
+            android:title="Culture Everyday" />
+        <item android:id="@+id/nav_course" android:icon="@android:drawable/ic_menu_directions"
+            android:title="Courses" />
+    </group>
+
+    <item android:title="Personal Information">
+        <menu>
+            <item android:id="@+id/nav_my_account" android:icon="@android:drawable/ic_menu_gallery"
+                android:title="My Account" />
+            <item android:id="@+id/nav_shopping" android:icon="@android:drawable/ic_menu_more"
+                android:title="Online Shop" />
+        </menu>
+    </item>
+
+</menu>
